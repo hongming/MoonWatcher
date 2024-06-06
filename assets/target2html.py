@@ -40,4 +40,4 @@ def convert_csv_to_target_format(csv_file, output_file):
             file.write(f"{target},\n")
 
 # 使用文件路径调用函数
-convert_csv_to_target_format('moon_targets.csv', 'targets_for_html.txt')
+convert_csv_to_target_format('markers-human.csv', 'markers-human-targets_for_html.txt')
